@@ -1,0 +1,9 @@
+<h4>Categories List</h4>
+    <ul class="list-group">
+      <li
+        class="list-group-item"
+        *ngFor="let category of categories; let i = index"
+      >
+        {{ category.name }}
+      </li>
+    </ul>
